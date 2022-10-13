@@ -6,7 +6,6 @@ const codificar = document.querySelector("#codificar");
 const decodificar = document.querySelector("#decodificar");
 
 
-
 selecione.addEventListener("click", function () {
   if (selecione.value == "cifra") {
     incremento.style.display = "block";
@@ -14,9 +13,6 @@ selecione.addEventListener("click", function () {
     incremento.style.display = "none";
   }
 });
-
-
-
 
 function base64() {
   let mensagem = document.querySelector("#mensagem").value;
@@ -29,9 +25,6 @@ function base64() {
     return decodificado;
   }
 }
-
-
-
 
 function cifraCesar() {
   let msg = document.querySelector("#mensagem").value;
@@ -61,7 +54,6 @@ function cifraCesar() {
     return saida;
   }
 }
-
 
 
 radiobutton.addEventListener("click", function () {
